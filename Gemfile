@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.2.11"
+ruby "~> 3.4.4"
 
 gem "rails", "~> 8.1.0"
 gem "pg", "~> 1.5"
@@ -18,4 +18,5 @@ end
 
 group :development do
   gem "web-console"
+  gem "bundler-audit", require: false
 end
